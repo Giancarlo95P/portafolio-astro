@@ -3,8 +3,8 @@ import "../styles/global.css"
 ---
 
 <div class="flex justify-between gap-0.5 m-2">
-    <h1 class="">Logo</h1>
-    <button class="hamburger hover:cursor-pointer hover:animate-tada">
+    <div class=""></div>
+    <button class="hamburger hover:cursor-pointer hover:animate-tada md:hidden ">
         <div class="w-6 h-1 bg-white/80 rounded mb-0.5"></div>
         <div class="w-6 h-1 bg-white/80 rounded mb-0.5"></div>
         <div class="w-6 h-1 bg-white/80 rounded mb-0.5"></div>
@@ -12,11 +12,11 @@ import "../styles/global.css"
 </div>
 
 <nav class="flex justify-end items-center text-gray-500">
-    <ul class="nav-links bg-blue-400 w-3xs py-2 rounded hidden">
-        <li><a href="" class="hover:text-white">About</a></li>
-        <li><a href="" class="hover:text-white">Projects</a></li>
-        <li><a href="" class="hover:text-white">Skills</a></li>
-        <li><a href="" class="hover:text-white">Contact</a></li>
+    <ul class="nav-links bg-blue-400 w-3xs py-2 rounded hidden md:flex md:justify-end md:items-center md:bg-transparent md:w-auto md:py-0 md:gap-4 md:mb-4">
+        <li><a href="" class="hover:text-white md:text-xl">Sobre mí</a></li>
+        <li><a href="" class="hover:text-white md:text-xl">Proyectos</a></li>
+        <li><a href="" class="hover:text-white md:text-xl">Skills</a></li>
+        <li><a href="" class="hover:text-white md:text-xl">Contacto</a></li>
     </ul>
 </nav>
 
